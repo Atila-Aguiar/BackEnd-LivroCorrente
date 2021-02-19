@@ -12,10 +12,10 @@ app.use(express.json())
 app.use(cors())     // Usa o cors é permite o acesso dos dados
 
 const conexao = mysql.createConnection({                         // Cria a conexão com o MYSQL  
-    host:'localhost', // "localhost" = ip da maquina atual
-    user:'root',                                     // "root" = usuario do banco de dados
-    password:'',
-    database:'livro_corrente'                              // "livro_corrente" = banco de dados
+    host:'bezr3by2ublvbfahsffb-mysql.services.clever-cloud.com', // "localhost" = ip da maquina atual
+    user:'uusq0dhdo8blstjy',                                     // "root" = usuario do banco de dados
+    password:'ebW3XZLGrLry84S9N0ZI',
+    database:'bezr3by2ublvbfahsffb'                              // "livro_corrente" = banco de dados
 })
 
 app.get('/cards', function(req, res) {
